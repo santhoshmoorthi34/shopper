@@ -1,0 +1,46 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+  }
+
+  .shopcategory-indexsort {
+    display: flex;
+    margin: 0px 17px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shopcategory-sort {
+    padding: 10px 50px;
+    border-radius: 40px;
+    border: 1px solid #888;
+  }
+  .shopcategory-sort p span {
+    font-weight: 600;
+  }
+  .shopCategory-products {
+    /* width: 100%; */
+    /* margin: 20px 170px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .shopcategory-lodemore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: gray;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
