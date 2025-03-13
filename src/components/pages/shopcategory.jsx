@@ -11,7 +11,7 @@ const Shopcategory = (props) => {
   const { all_product } = useContext(ShopContext);
 
   // Find the first product that matches the category (for breadcrumb display)
-  const product = all_product.find((item) => item.category === props.category) || null;
+  // const product = all_product.find((item) => item.category === props.category) || null;
 
   return (
     <div className="shop_category">
