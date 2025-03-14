@@ -95,7 +95,7 @@ const ShopContextProvider = (props) => {
    const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: (prev[itemId]) + 1 }));
     if(localStorage.getItem('auth-token')){
-      fetch('http://localhost:510/addtocart',{
+      fetch('https://shopperbackend-70xa.onrender.com/addtocart',{
         method:'POST',
         headers:{
           Accept:'application/form-data',
@@ -117,7 +117,7 @@ const ShopContextProvider = (props) => {
       return { ...prev, [itemId]: prev[itemId] - 1 };
     });
     if(localStorage.getItem('auth-token')){
-      fetch('http://localhost:510/removefromcart',{
+      fetch('https://shopperbackend-70xa.onrender.com/removefromcart',{
         method:'POST',
         headers:{
           Accept:'application/form-data',

@@ -19,7 +19,7 @@ const Loginsingup = () => {
   const login = async () => {
     console.log("Login form working", formData);
     let responseData;
-    await fetch('http://localhost:510/login', {
+    await fetch('https://shopperbackend-70xa.onrender.com/login', {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -44,7 +44,7 @@ const Loginsingup = () => {
     console.log("Signup form working", formData);
     let responseData;
 
-    await fetch('http://localhost:510/signup', {
+    await fetch('https://shopperbackend-70xa.onrender.com/signup', {
       method: "POST",
       headers: {
         Accept: "application/json",
